@@ -1,0 +1,35 @@
+body{
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.col {
+    flex-shrink: 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+.col-login {
+    margin-top: 8%; 
+    justify-content: center;
+    flex-shrink: 1;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.box-login {
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    color: grey;
+}
+
+.upper-login {
+    color: black;
+    background-color: grey;
+}
